@@ -1,0 +1,18 @@
+.odd{
+    background-color: pink;
+    font-family: Verdna, DejaVu Sans, sans-serif;
+}
+.odd.odd+{
+    background-color: pink;
+    font-family: Verdna, DejaVu Sans, sans-serif;
+    font-size: 24px;
+}
+#secondElement{
+    color: blue;
+    font-size: 36px;
+}
+#fourthElement{
+    background-color: lightgreen;
+    font-size: 24px;
+    text-emphasis: 700;
+}
