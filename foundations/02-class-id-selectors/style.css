@@ -2,10 +2,10 @@
     background-color: pink;
     font-family: Verdna, DejaVu Sans, sans-serif;
 }
-.odd.odd+{
-    background-color: pink;
-    font-family: Verdna, DejaVu Sans, sans-serif;
+.odd.oddPlus{
+
     font-size: 24px;
+
 }
 #secondElement{
     color: blue;
