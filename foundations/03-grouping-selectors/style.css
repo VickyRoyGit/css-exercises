@@ -1,0 +1,11 @@
+.firstEle{
+    background-color: rgba(0, 0, 0, 1);
+    color: #ffffff;
+}
+.secondEle{
+    background-color: hsla(60, 100%, 50%,1);
+}
+.firstEle,.secondEle{
+    font-size: 28px;
+    font-family: Helvetica,'Times New Roman',  sans-serif;
+}
