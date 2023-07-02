@@ -2,10 +2,39 @@
 
 body {
   height: 100vh;
-  margin: 0;
+  margin: 0 16px;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
 }
+
+.header,.footer{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+ul{
+  list-style: none;
+  padding:0px;
+  display: flex;
+  gap: 16px;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.content{
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 img {
   width: 600px;
@@ -25,3 +54,5 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+
